@@ -1,7 +1,7 @@
 [![Deploy](https://github.com/ProyectoMigala/MigalaTelegramBot/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/ProyectoMigala/MigalaTelegramBot/actions/workflows/main.yml)
-# Telegram Bot Migala
+# Telegram Bot Migala Support
 
-Es un bot de Telegram que sera utilizado en todas las entidades Estatales.
+Es un bot de Telegram que sera utilizado como soporte para el proyecto Migala.
 
 ## Pre-Requisitos Configuracion
 
@@ -35,8 +35,8 @@ npm run dev
 
 ```bash
 # Crea la imagen a partir del Dockerfile
-docker build -t telegram-bot-migala .
+docker build -t telegram-bot-migala-sup .
 
 # Crear el contenedor a partir de la imagen
-docker run telegram-bot-migala
+docker run telegram-bot-migala-sup
 ```
